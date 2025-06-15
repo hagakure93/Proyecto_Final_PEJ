@@ -1,14 +1,14 @@
 package model;
 
 public class Libro {
-    private int id;
+    private Long id;
     private String isbn;
     private String titulo;
     private String autor;
     private String categoria;
 
 
-    public Libro(int id, String isbn, String titulo, String autor, String categoria) {
+    public Libro(Long id, String isbn, String titulo, String autor, String categoria) {
 
         this.id = id;
         this.isbn = isbn;
@@ -18,11 +18,11 @@ public class Libro {
 
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
